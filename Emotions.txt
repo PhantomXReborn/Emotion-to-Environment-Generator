@@ -1,0 +1,61 @@
+Joy
+Sadness
+Anger
+Fear
+Disgust
+Surprise
+Trust
+Anticipation
+Calm
+Anxiety
+Stress
+Relief
+Contentment
+Loneliness
+Frustration
+Hope
+Guilt
+Shame
+Pride
+Love
+Melancholy
+Nostalgia
+Dread
+Unease
+Emptiness
+Longing
+Isolation
+Confusion
+Vulnerability
+Overwhelm
+Detachment
+Panic
+Paranoia
+Despair
+Rage
+Obsession
+Hopelessness
+Helplessness
+Dissociation
+Existential fear
+Emotional numbness
+Resignation
+Apathy
+Bitterness
+Regret
+Fatigue
+Burnout
+Stillness
+Acceptance
+Uncertainty
+Inner conflict
+Yearning
+Pressure
+Release
+Fragility
+Tension
+Weight
+Mixed emotions
+Nothing
+Too much
+Everything
