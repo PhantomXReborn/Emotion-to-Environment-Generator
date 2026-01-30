@@ -9,7 +9,14 @@ internal feelings into external,
 imagined spaces.
 '''
 
-# Function
+# Imports
+import os
+import linecache
+from time import sleep
+
+# clear_screen Function
+def clear_screen():
+    os.system('cls' if os.name == 'nt' else 'clear')
 
 # Main Function
 def menu():
@@ -31,19 +38,33 @@ def menu():
 
     return option
 
-# Main Function
+# op1 Function
 def op1():
+
+    for i in range(5):
+        for j in range(3):
+            print(j*"*")
+            sleep(0.1)
+            clear_screen()
+
+        clear_screen()
+
     # Menu Screen
     print("\n\tEmotion-to-Environment Generator") # Title
 
     print("\n\nOption:\nDisplay a list of emotions to choose from") # Option
 
-    f = open("Emotions.txt")
+    f1 = open("Emotions.txt")
     print("\n" + f.read())
 
-    print("\n\nWhich emotion would you like to choose from?\n")
+    print("\n\nWhich emotion would you like to choose?\n")
     choice = str(input("--->")).lower()
-# Main Function
+
+    for x in f1:
+        if choice == x:
+            print(linecache.getline('Palettes.txt', x)
+            
+# op2 Function
 def op2():
     # Menu Screen
     print("\n\tEmotion-to-Environment Generator") # Title
