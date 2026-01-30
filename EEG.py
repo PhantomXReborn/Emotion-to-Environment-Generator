@@ -18,6 +18,15 @@ from time import sleep
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
+def loading():
+    for i in range(5):
+        for j in range(3):
+            print(j*"*")
+            sleep(0.1)
+            clear_screen()
+
+        clear_screen()
+
 # Main Function
 def menu():
     # Menu Screen
@@ -29,9 +38,8 @@ def menu():
     print("\n\tWELCOME TO THE PROGRAM")
     print("\nWhat would you wish to do?")
     print("1)\tDisplay a list of emotions to choose from\n")
-    print("2)\tInput what emotion you are feeling\n")
-    print("3)\tAdd a new emotion and colour palettte\n")
-    print("4)\tDisplay a random emotion & colour palette\n\n")
+    print("2)\tWhat emotion would you wish to learn about\n")
+    print("3)\tDisplay a random emotion & colour palette\n\n")
 
     # Input Screen
     option = int(input("Enter your choice\n---> "))
@@ -40,15 +48,6 @@ def menu():
 
 # op1 Function
 def op1():
-
-    for i in range(5):
-        for j in range(3):
-            print(j*"*")
-            sleep(0.1)
-            clear_screen()
-
-        clear_screen()
-
     # Menu Screen
     print("\n\tEmotion-to-Environment Generator") # Title
 
@@ -66,15 +65,6 @@ def op1():
             
 # op2 Function
 def op2():
-
-    for i in range(5):
-        for j in range(3):
-            print(j*"*")
-            sleep(0.1)
-            clear_screen()
-
-        clear_screen()
-
     # Menu Screen
     print("\n\tEmotion-to-Environment Generator") # Title
 
@@ -82,31 +72,13 @@ def op2():
 
 # Main Function
 def op3():
-
-    for i in range(5):
-        for j in range(3):
-            print(j*"*")
-            sleep(0.1)
-            clear_screen()
-
-        clear_screen()
-
     # Menu Screen
     print("\n\tEmotion-to-Environment Generator") # Title
 
     print("\n\nOption:\nAdd a new emotion and colour palettte") # Option
 
     # Main Function
-def op4():
-
-    for i in range(5):
-        for j in range(3):
-            print(j*"*")
-            sleep(0.1)
-            clear_screen()
-
-        clear_screen()
-        
+def newEmotion():
     # Menu Screen
     print("\n\tEmotion-to-Environment Generator") # Title
 
@@ -117,12 +89,17 @@ userChoice = menu()
 
 match userChoice:
     case 1:
+        loading()
         op1()
     case 2:
+        loading()
         op2()
     case 3:
+        loading()
         op3()
     case 4:
+        loading()
         op4()
     case _:
+        loading()
         menu()
