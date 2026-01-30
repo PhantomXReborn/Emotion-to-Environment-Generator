@@ -66,6 +66,15 @@ def op1():
             
 # op2 Function
 def op2():
+
+    for i in range(5):
+        for j in range(3):
+            print(j*"*")
+            sleep(0.1)
+            clear_screen()
+
+        clear_screen()
+
     # Menu Screen
     print("\n\tEmotion-to-Environment Generator") # Title
 
@@ -73,6 +82,15 @@ def op2():
 
 # Main Function
 def op3():
+
+    for i in range(5):
+        for j in range(3):
+            print(j*"*")
+            sleep(0.1)
+            clear_screen()
+
+        clear_screen()
+
     # Menu Screen
     print("\n\tEmotion-to-Environment Generator") # Title
 
@@ -80,6 +98,15 @@ def op3():
 
     # Main Function
 def op4():
+
+    for i in range(5):
+        for j in range(3):
+            print(j*"*")
+            sleep(0.1)
+            clear_screen()
+
+        clear_screen()
+        
     # Menu Screen
     print("\n\tEmotion-to-Environment Generator") # Title
 
