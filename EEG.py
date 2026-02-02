@@ -62,13 +62,22 @@ def op1():
     for x in f1:
         if choice == x:
             print(linecache.getline('Palettes.txt', x)
-            
+
 # op2 Function
 def op2():
     # Menu Screen
     print("\n\tEmotion-to-Environment Generator") # Title
 
-    print("\n\nOption:\nnput what emotion you are feeling") # Option
+    print("\n\nOption:\nInput what emotion you are feeling") # Option
+
+    emotion = str(input("\n---> "))
+
+    f1 = open("Emotions.txt")
+
+    for x in f1:
+        if choice == x:
+            print(linecache.getline('Palettes.txt', x)
+    
 
 # Main Function
 def op3():
